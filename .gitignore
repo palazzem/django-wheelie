@@ -56,3 +56,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Databases
+*.sqlite3
+
+# Wheelie builder
+node_modules
