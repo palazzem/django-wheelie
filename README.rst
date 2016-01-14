@@ -32,7 +32,7 @@ Go to your Django project root and launch the generation with:
 
 .. code-block:: bash
 
-    $ python manage.py startapp wheelie --template=https://github.com/palazzem/django-wheelie
+    $ python manage.py startapp wheelie --template=https://github.com/palazzem/django-wheelie/archive/master.zip
 
 Go in your application settings and add Wheelie to the ``INSTALLED_APPS`` list:
 
