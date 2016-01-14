@@ -52,6 +52,22 @@ Go in your application settings and add Wheelie to the ``INSTALLED_APPS`` list:
         'wheelie',
     ]
 
+The Django app has the following structure:
+
+.. code-block:: bash
+
+    .
+    ├── client
+    │   ├── js
+    │   └── scss
+    ├── gulpfile.js
+    ├── __init__.py
+    ├── package.json
+    ├── README.rst
+    └── static
+
+The ``README.rst`` file that you're reading, could be safely removed.
+
 Usage
 -----
 
